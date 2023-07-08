@@ -19,7 +19,7 @@ Use PowerShell on Windows, Terminal on Mac/Linux.
 Type the following command in the terminal and hit Enter to run it. 
 
 ```shell
-python --version
+python3 --version
 ```
 
 If that does not work, try `python3 --version` or `py --version`. 
