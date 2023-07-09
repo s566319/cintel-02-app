@@ -65,7 +65,7 @@ We **create** a local virtual environment, **activate** it, and **install** the 
 Here's the short version for PowerShell. Run one command at at time and wait for each to finish before running the next one.
 
 ```shell
-python -m venv .venv
+python.venv\Scripts\activate -m venv .venv
 .venv\Scripts\activate
 python -m pip install --upgrade pip wheel
 python -m pip install --upgrade -r requirements.txt
