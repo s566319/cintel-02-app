@@ -23,7 +23,7 @@ app_ui = ui.page_navbar(
                 ui.h2("Sidebar Panel"),
                 ui.tags.hr(),
                 ui.h3("User Interaction Here"),
-                ui.input_text("name_input", "Enter your name", placeholder="Your Name"),
+                ui.input_text("name_input", "Enter your name", placeholder="Your name"),
                 ui.input_text("language_input", "Enter your favorite language(s)", placeholder="Favorite Programming Language(s)"),
                 ui.tags.hr(),
             ),
@@ -43,7 +43,7 @@ app_ui = ui.page_navbar(
     ui.nav(ui.a("Themes", href="https://rstudio.github.io/py-shinyswatch/")),
     ui.nav(ui.a("Deploy", href="https://docs.posit.co/shinyapps.io/getting-started.html#working-with-shiny-for-python")),
     # TODO: Update the title to reflect yourname Dashboard
-    title=ui.h1("Case Dashboard"),
+    title=ui.h1("Inga Miller Dashboard"),
 )
 
 
