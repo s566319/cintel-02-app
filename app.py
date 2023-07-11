@@ -24,7 +24,7 @@ app_ui = ui.page_navbar(
                 ui.tags.hr(),
                 ui.h3("User Interaction Here"),
                 ui.input_text("name_input", "Enter your name", placeholder="Your name"),
-                ui.input_text("language_input", "Enter your favorite language(s)", placeholder="Favorite Programming Language(s)"),
+                ui.input_text("language_input", "Enter your favorite country to travel to", placeholder="Favorite Country"),
                 ui.tags.hr(),
             ),
             ui.panel_main(
@@ -62,7 +62,7 @@ def server(input, output, session):
     @render.text
     def welcome_output():
         user = input.name_input();
-        welcome_string = f'Greetings {Welcome to this page}!';
+        welcome_string = f'Welcome to this page {user}!';
         return welcome_string
 
     @output
