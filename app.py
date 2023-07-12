@@ -24,7 +24,7 @@ app_ui = ui.page_navbar(
                 ui.tags.hr(),
                 ui.h3("User Interaction Here"),
                 ui.input_text("name_input", "Enter your name", placeholder="Your name"),
-                ui.input_text("language_input", "Enter your favorite country to visit", placeholder="Favorite Country"),
+                ui.input_text("language_input", "Enter Your Favorite Country to Visit", placeholder="Favorite Country"),
                 ui.tags.hr(),
             ),
             ui.panel_main(
